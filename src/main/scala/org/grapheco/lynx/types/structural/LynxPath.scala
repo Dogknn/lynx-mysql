@@ -68,7 +68,7 @@ object LynxPath{
 
   val EMPTY = new LynxPath(Seq.empty)
 
-  def apply(elements: Seq[LynxElement]): LynxPath ={
+  def  apply(elements: Seq[LynxElement]): LynxPath ={
     check(elements)
     new LynxPath(elements)
   }
